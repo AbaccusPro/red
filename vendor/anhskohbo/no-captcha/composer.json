@@ -1,0 +1,21 @@
+{
+    "name": "anhskohbo/no-captcha",
+    "description": "No CAPTCHA reCAPTCHA For Laravel.",
+    "keywords": ["recaptcha", "no-captcha", "captcha", "laravel", "laravel4", "laravel5"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anhskohbo",
+            "email": "anhskohbo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anhskohbo\\NoCaptcha\\": "src/"
+        }
+    }
+}
